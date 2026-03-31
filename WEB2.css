@@ -1,0 +1,52 @@
+select {
+  background-color: #f2f2f2; /* Background color of the select box */
+  color: #333; /* Text color */
+  border: 1px solid #ccc; /* Border style */
+  padding: 8px 12px; /* Inner spacing */
+  width: 200px; /* Width of the select box */
+  font-size: 16px; /* Text size */
+  border-radius: 9px;
+}
+
+nav{
+    background-color: blanchedalmond;
+    padding: 20px 10px;
+    margin: 20px 30px;
+    text-align: right;
+    border-radius: 9px;
+}
+
+
+body{
+    background-color: rgb(192, 135, 113);
+    font-weight: bolder;
+    font-style: courier new;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 3px 0px black;
+    color: rgb(224, 0, 0);
+    font-weight: bolder;
+    font-style: courier new;
+
+
+    padding: 20px 4px;
+    margin: 20px 35px;
+
+}
+
+.car-image {
+    width: 600px;
+    height: 300px;
+    border-radius: 9px;
+    image-rendering: pixelated;
+
+
+  float: right;
+margin-left: 15px;
+margin-bottom: 15px;
+  }
