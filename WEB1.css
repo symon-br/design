@@ -1,0 +1,137 @@
+/* section div{
+    padding: 30px;
+    margin: 150px;
+    background-color: #c56565;
+    height: 100px;
+    font-size: 50px;
+    color: rgb(100, 216, 46);
+    
+}
+section {
+    height:4000px;
+    display: flex;
+    background-color : #a72929;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center; 
+
+}
+
+section div:nth-child(1){
+    background-color: #a83a3a;
+}
+section div:nth-child(2){
+    background-color: #eedd48;
+}
+section div:nth-child(3){
+    background-color: #36d4cd;
+}
+section div:nth-child(4){
+    background-color: #d84f71;
+}
+section div:nth-child(5){
+    background-color: #7ae8d0;
+}
+section div:nth-child(6){
+    background-color: #742121;
+}
+section div:nth-child(7){
+    background-color: #22b622;
+} */
+
+/* nav */
+nav{
+    background-color: blanchedalmond;
+    padding: 20px 10px;
+    margin: 20px 30px;
+    text-align: left;
+    border-radius: 9px;
+}
+
+
+/* advance */
+navbar.scrolled {
+    background-color: rgba(7,8,10,0.92);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 1px 0 var(--border);
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+a.nav-logo {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar{
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    padding: 18px 0;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.nav-container{
+   max-width: var(--max-w); margin: 0 auto;
+   padding: 0 24px;
+   display: flex; align-items: center; gap: 40px;
+}
+
+.logo {
+    font-family: var(--font-display);
+    font-size: 22px; font-weight: 800;
+    color: var(--text); text-decoration: none;
+    margin-right: auto;
+}
+
+.logo-e {
+    color: var(--accent);
+}
+.logo.dot {
+    color: var(--accent);
+}
+
+.nav-links {
+    list-style: none; display: flex; gap: 36px;
+}
+.nav-links a {
+    color: var(--muted); text-decoration: none;
+    font-size: 14px; font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--text);
+}
+
+.btn-nav {
+   background-color: var(--accent);
+   color: black;
+   padding: 9px 22px;
+   border-radius: 8px;
+   font-size: 13px; font-weight: 700;
+   text-decoration: none;
+   transition: opacity 0.3s, transform 0.3s;
+   white-space: nowrap;
+}
+.btn-nav:hover {
+    opacity: 0.9; transform: translateY(-1px);
+}
+
+.hambuger{
+    display: none; flex-direction: column; cursor: pointer; gap: 5px;
+    border: none; padding: 4px;
+    background: none;
+}
+.hambuger span {
+    display: block; width: 25px; height: 3px;
+    background-color: var(--text); border-radius: 2px;
+    transition: transform 0.3s, opacity 0.3s;
+}
