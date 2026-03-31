@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(216, 195, 236);
+    background : url();
+}
+
+.T{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 3px 0px black;
+    color: rgb(224, 0, 0);
+    font-weight: bolder;
+    font-style: courier new;
+}
+#Q{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 0px rgb(175, 149, 34);
+    color: #000000;
+
+
+    background-color: blanchedalmond;
+    padding: 20px 40px;
+    margin: 20px 40px;
+    border: 5px solid rgb(77, 74, 60);
+    outline: 5px solid rgb(175, 149, 34);
+    border-radius: 3px;
+}
+
+#W{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 0px rgb(175, 149, 34);
+    color: #000000;
+
+
+    background-color: blanchedalmond;
+    padding: 20px 40px;
+    margin: 20px 40px;
+    border: 5px solid rgb(77, 74, 60);
+    outline: 5px solid rgb(175, 149, 34)    ;
+}
+p{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 0px rgb(175, 149, 34);
+    color: rgb(224, 0, 0);
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 0px rgb(175, 149, 34);
+    color: rgb(224, 0, 0);
+
+    padding: 20px 40px;
+    margin: 20px 40px;
+    border: 5px solid rgb(77, 74, 60);
+    outline: 5px solid rgb(175, 149, 34);
+
+}
+
+
+a:hover {
+    color: rgb(224, 0, 0);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(113, 28, 192);
+}
+
+nav{
+    background-color: blanchedalmond;
+    padding: 20px 40px;
+    margin: 20px 40px;
+    text-align: right;
+}
+
